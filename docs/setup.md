@@ -35,7 +35,7 @@ paru -S neovim
 Install nerd-fonts:
 
 ```rs
-paru -S nerd-fonts-fira-code
+paru -S nerd-fonts-fira-code ttf-jetbrains-mono-nerd
 ```
 
 Install fish: 
@@ -50,5 +50,16 @@ Install starship:
 paru -S starship
 ```
 
-## Configuration
+## Starship
 
+Make starship use nerd font symbols
+
+```rs
+starship preset nerd-font-symbols -o ~/.config/starship/starship.toml
+```
+
+Set the default location of the starship config file: 
+
+```rs
+export STARSHIP_CONFIG=~/.config/starship/starship.toml
+```
