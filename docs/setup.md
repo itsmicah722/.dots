@@ -52,7 +52,6 @@ Install starship:
 paru -S starship
 ```
 
-<<<<<<< HEAD
 ## Setup Repository
 
 Clone this dotfiles repo
@@ -61,18 +60,22 @@ Clone this dotfiles repo
 git clone https://github.com/itsmicah722/.dots.git ~/.dots && cd ~/.dots
 ```
 
-Move the `.stow-global-ignore` to your home directory so GNU Stow ignores the uneeded files in this repository:
+Move the `.stow-global-ignore` to your home directory so GNU Stow ignores the unneeded files in this repository:
 
 ```rs
 mv .stow-global-ignore ~/
 ```
 
+## Fish
+
+Use GNU Stow to symlink the changes
+
+```rs
+stow fish
+```
+
 ## Starship
 
-=======
-## Starship
-
->>>>>>> 94d9c0c15d326ae5a9515e8c4ea689f79c2fc44f
 Make starship use nerd font symbols
 
 ```rs
@@ -83,4 +86,18 @@ Set the default location of the starship config file:
 
 ```rs
 export STARSHIP_CONFIG=~/.config/starship/starship.toml
+```
+
+Use GNU Stow to symlink the changes
+
+```rs
+stow starship
+```
+
+## Kitty
+
+Use GNU Stow to symlink the changes
+
+```rs
+stow kitty
 ```
