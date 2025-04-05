@@ -14,7 +14,11 @@ disabled = false
 [directory]
 read_only = " "
 truncation_length = 10
+<<<<<<< HEAD
 truncate_to_repo = true
+=======
+truncate_to_repo = true # truncates directory to root folder if in github repo
+>>>>>>> 94d9c0c15d326ae5a9515e8c4ea689f79c2fc44f
 style = "bold italic blue"
 
 [cmd_duration]

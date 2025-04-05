@@ -52,6 +52,7 @@ Install starship:
 paru -S starship
 ```
 
+<<<<<<< HEAD
 ## Setup Repository
 
 Clone this dotfiles repo
@@ -68,6 +69,10 @@ mv .stow-global-ignore ~/
 
 ## Starship
 
+=======
+## Starship
+
+>>>>>>> 94d9c0c15d326ae5a9515e8c4ea689f79c2fc44f
 Make starship use nerd font symbols
 
 ```rs
