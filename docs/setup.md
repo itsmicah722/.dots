@@ -68,6 +68,12 @@ mv .stow-global-ignore ~/
 
 ## Fish
 
+Install eza for better file listing in fish: 
+
+```rs
+paru -S eza
+```
+
 Set fish as the default shell: 
 
 ```rs
