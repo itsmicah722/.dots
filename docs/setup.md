@@ -68,6 +68,12 @@ mv .stow-global-ignore ~/
 
 ## Fish
 
+Set fish as the default shell: 
+
+```rs
+chsh -s /bin/fish
+```
+
 Use GNU Stow to symlink the changes
 
 ```rs

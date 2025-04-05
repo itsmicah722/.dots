@@ -1,5 +1,8 @@
 {
     "cSpell.words": [
+        "Caskaydia",
+        "Catppuccin",
+        "chsh",
         "fira",
         "Hyprland",
         "localip",
@@ -8,10 +11,14 @@
         "noconfirm",
         "pacman",
         "paru",
+        "Pocco",
         "pyenv",
         "rofi",
         "rustup",
+        "Scrollback",
         "shlvl",
+        "strikethrough",
+        "titlebar",
         "venv",
         "virtualenv"
     ]
